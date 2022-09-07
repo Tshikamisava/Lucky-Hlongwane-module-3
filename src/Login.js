@@ -17,11 +17,14 @@ const Login = ({ navigation }) => {
             />
             </View>
             <TouchableOpacity style={styles.button}
-            onPress={()=> navigation.navigate('Dashboard')}>
+            onPress={()=> navigation.navigate('Home')}>
 
                 <Text style={{color:'white'}}>Login</Text>
             </TouchableOpacity>
-            <Text>Don't have acco</Text>
+            
+
+            <Text>Don't have account</Text>
+
         </SafeAreaView>
     );
 };
